@@ -1,10 +1,10 @@
 from flask import Flask, send_from_directory
 from flask_restful import reqparse, abort, Api, Resource
-# from flask.ext.cors import CORS
+from flask.ext.cors import CORS
 
 app = Flask(__name__)
 api = Api(app)
-# CORS(app)
+CORS(app)
 
 TODOS = {
     'todo1': {'task': 'build an API'},
