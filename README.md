@@ -4,9 +4,10 @@ This project is generated with [yo angular generator](https://github.com/yeoman/
 
 ## Build & development
 
-1. Download all of the dependencies for the [yo angular generator](https://github.com/yeoman/generator-angular).
-2. Create a virtual environment and install the requirements file.
-3. Run the `grunt build` command, then run `python hello.py`
+1. Install all of the dependencies for the [yo angular generator](https://github.com/yeoman/generator-angular).
+2. Run `npm install` and `bower install`
+3. Create a python virtual environment and install the requirements file.
+4. Run the `grunt build` command, then run `python hello.py`
 
 ## Testing
 
